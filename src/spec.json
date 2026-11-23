@@ -149,7 +149,8 @@
         "Stato",
         "Dal",
         "Al"
-      ]
+      ],
+      "view": "cards"
     },
     {
       "id": "atti-e-scadenze",
@@ -431,6 +432,14 @@
       "description": "Calendario mensile, gestione manuale e importazione di un documento dimostrativo con anteprima.",
       "role": "section",
       "pageId": "prenotazioni-sale",
+      "position": "top"
+    },
+    {
+      "name": "CalendarioIstanze",
+      "title": "Calendario mensile delle istanze",
+      "description": "Calendario basato sulla colonna Data, con navigazione mensile e apertura del dettaglio degli eventi.",
+      "role": "section",
+      "pageId": "istanze",
       "position": "top"
     }
   ]
