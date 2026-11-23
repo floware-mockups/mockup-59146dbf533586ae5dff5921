@@ -84,7 +84,9 @@
         "Luogo",
         "Data",
         "Referente",
-        "Stato"
+        "Stato",
+        "Dal",
+        "Al"
       ],
       "rows": [
         [
@@ -93,7 +95,9 @@
           "Piazza delle Vele",
           "2026-06-18",
           "Nubi",
-          "Delibera da preparare"
+          "Delibera da preparare",
+          "15/06/2026",
+          "16/06/2026"
         ],
         [
           "Mercato dei Giardini",
@@ -101,7 +105,9 @@
           "Parco Lumo",
           "2026-06-21",
           "Vela",
-          "Ordinanza da preparare"
+          "Ordinanza da preparare",
+          "20/06/2026",
+          "22/06/2026"
         ],
         [
           "Suoni al Chiostro",
@@ -109,7 +115,9 @@
           "Chiostro delle Rive",
           "2026-06-24",
           "Lumo",
-          "Attrezzature da confermare"
+          "Attrezzature da confermare",
+          "22/06/2026",
+          "25/06/2026"
         ],
         [
           "Racconti in Piazza",
@@ -117,7 +125,9 @@
           "Piazza delle Vele",
           "2026-06-27",
           "Nubi",
-          "In attesa di valutazione"
+          "In attesa di valutazione",
+          "26/06/2026",
+          "28/06/2026"
         ],
         [
           "Fiera delle Erbe",
@@ -125,7 +135,9 @@
           "Giardino dei Nembi",
           "2026-06-30",
           "Vela",
-          "Istanza ricevuta"
+          "Istanza ricevuta",
+          "29/06/2026",
+          "30/06/2026"
         ]
       ],
       "form": [
@@ -134,7 +146,9 @@
         "Luogo",
         "Data",
         "Referente",
-        "Stato"
+        "Stato",
+        "Dal",
+        "Al"
       ]
     },
     {
@@ -200,10 +214,69 @@
         "Referente",
         "Stato"
       ]
+    },
+    {
+      "id": "messaggi-uffici",
+      "title": "Messaggi uffici",
+      "description": "Registro dimostrativo delle conversazioni per evento, conservato in memoria.",
+      "metrics": [],
+      "columns": [
+        "Evento",
+        "Mittente",
+        "Ufficio",
+        "Data e ora",
+        "Messaggio"
+      ],
+      "rows": [
+        [
+          "Festa delle Lanterne",
+          "Operatore demo A",
+          "Segreteria",
+          "2026-06-01T09:00:00",
+          "Avviata la preparazione della delibera."
+        ],
+        [
+          "Festa delle Lanterne",
+          "Operatore demo B",
+          "Ufficio tecnico",
+          "2026-06-01T09:30:00",
+          "Verifichiamo la disponibilità delle attrezzature."
+        ],
+        [
+          "Mercato dei Giardini",
+          "Operatore demo C",
+          "Polizia locale",
+          "2026-06-01T10:00:00",
+          "In preparazione lo schema di ordinanza."
+        ],
+        [
+          "Suoni al Chiostro",
+          "Operatore demo B",
+          "Ufficio tecnico",
+          "2026-06-01T10:15:00",
+          "Disponibilità delle attrezzature da confermare."
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Mittente",
+        "Ufficio",
+        "Data e ora",
+        "Messaggio"
+      ]
     }
   ],
   "theme": {
     "palette": "prugna",
     "fonts": "editoriale"
-  }
+  },
+  "custom": [
+    {
+      "name": "ChatUfficiEvento",
+      "title": "Chat tra uffici",
+      "description": "Conversazioni dimostrative condivise tra le due pagine e collegate tramite il nome dell’evento.",
+      "role": "section",
+      "position": "top"
+    }
+  ]
 }
