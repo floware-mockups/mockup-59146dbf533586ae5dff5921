@@ -308,18 +308,18 @@
   },
   "custom": [
     {
-      "name": "ChatUfficiEvento",
-      "title": "Chat tra uffici",
-      "description": "Conversazioni dimostrative condivise tra le due pagine e collegate tramite il nome dell’evento.",
-      "role": "section",
-      "position": "top"
-    },
-    {
       "name": "ImportazioneMda",
       "title": "Importazione MDA simulata",
       "description": "Anteprima modificabile, collegamento tramite registro identificativi e rapporto delle modifiche.",
       "role": "section",
       "pageId": "istanze",
+      "position": "top"
+    },
+    {
+      "name": "ChatUfficiEvento",
+      "title": "Chat tra uffici",
+      "description": "Conversazioni per evento con selezione multipla degli uffici destinatari, conservate in memoria.",
+      "role": "section",
       "position": "top"
     }
   ]
