@@ -300,10 +300,113 @@
         "ID istanza",
         "Impronta"
       ]
+    },
+    {
+      "id": "prenotazioni-sale",
+      "title": "Prenotazioni sale",
+      "description": "Registro delle richieste di utilizzo delle sale comunali.",
+      "metrics": [
+        {
+          "label": "Prenotazioni registrate",
+          "value": "8"
+        },
+        {
+          "label": "Sale disponibili",
+          "value": "2"
+        },
+        {
+          "label": "Da verificare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Richiedente",
+        "Sala",
+        "Data",
+        "Ora",
+        "Evento",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Associazione Lume",
+          "Sala 1",
+          "18/06/2026",
+          "09:00",
+          "Incontro organizzativo",
+          "Confermata"
+        ],
+        [
+          "Comitato delle Vele",
+          "Sala 2",
+          "19/06/2026",
+          "14:30",
+          "Riunione volontari",
+          "In attesa"
+        ],
+        [
+          "Gruppo Nembi",
+          "Sala 1",
+          "20/06/2026",
+          "10:00",
+          "Laboratorio creativo",
+          "Confermata"
+        ],
+        [
+          "Circolo delle Rive",
+          "Sala 2",
+          "22/06/2026",
+          "16:00",
+          "Assemblea associativa",
+          "Da verificare"
+        ],
+        [
+          "Rete Lumo",
+          "Sala 1",
+          "24/06/2026",
+          "11:30",
+          "Tavolo di coordinamento",
+          "Confermata"
+        ],
+        [
+          "Compagnia del Chiostro",
+          "Sala 2",
+          "25/06/2026",
+          "17:00",
+          "Prove di lettura",
+          "In attesa"
+        ],
+        [
+          "Associazione Giardini",
+          "Sala 1",
+          "27/06/2026",
+          "09:30",
+          "Incontro soci",
+          "Confermata"
+        ],
+        [
+          "Laboratorio delle Erbe",
+          "Sala 2",
+          "29/06/2026",
+          "15:00",
+          "Attività pubblica",
+          "Da verificare"
+        ]
+      ],
+      "form": [
+        "Richiedente",
+        "Sala",
+        "Data",
+        "Ora",
+        "Evento",
+        "Stato"
+      ],
+      "view": "cards",
+      "statusColumn": 5
     }
   ],
   "theme": {
-    "palette": "prugna",
+    "palette": "terracotta",
     "fonts": "editoriale"
   },
   "custom": [
@@ -320,6 +423,14 @@
       "description": "Selezione di file dimostrativi, anteprima delle otto colonne modificabile e importazione in memoria con registro identificativi.",
       "role": "section",
       "pageId": "istanze",
+      "position": "top"
+    },
+    {
+      "name": "CalendarioSale",
+      "title": "Calendario delle prenotazioni",
+      "description": "Calendario mensile, gestione manuale e importazione di un documento dimostrativo con anteprima.",
+      "role": "section",
+      "pageId": "prenotazioni-sale",
       "position": "top"
     }
   ]
