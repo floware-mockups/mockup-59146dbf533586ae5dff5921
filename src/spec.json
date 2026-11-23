@@ -308,18 +308,18 @@
   },
   "custom": [
     {
-      "name": "ImportazioneMda",
-      "title": "Importazione MDA simulata",
-      "description": "Anteprima modificabile, collegamento tramite registro identificativi e rapporto delle modifiche.",
-      "role": "section",
-      "pageId": "istanze",
-      "position": "top"
-    },
-    {
       "name": "ChatUfficiEvento",
       "title": "Chat tra uffici",
       "description": "Conversazioni per evento con selezione multipla degli uffici destinatari, conservate in memoria.",
       "role": "section",
+      "position": "top"
+    },
+    {
+      "name": "ImportazioneMda",
+      "title": "Importazione MDA simulata",
+      "description": "Selezione di file dimostrativi, anteprima delle otto colonne modificabile e importazione in memoria con registro identificativi.",
+      "role": "section",
+      "pageId": "istanze",
       "position": "top"
     }
   ]
