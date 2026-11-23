@@ -1,0 +1,209 @@
+{
+  "title": "Organizzazione eventi",
+  "description": "Un registro condiviso per seguire le istanze, preparare gli atti e aggiornare scadenze e controlli tra gli uffici.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Scadenze in arrivo, controlli da fare e stato delle pratiche.",
+      "metrics": [
+        {
+          "label": "Eventi del mese",
+          "value": "8"
+        },
+        {
+          "label": "Sale prenotate",
+          "value": "3"
+        },
+        {
+          "label": "Prestiti attivi",
+          "value": "4"
+        },
+        {
+          "label": "Patrocini da valutare",
+          "value": "2"
+        },
+        {
+          "label": "Scadenze nei prossimi 7 giorni",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Festa delle Lanterne",
+          "Manifestazione",
+          "Piazza delle Vele",
+          "2026-06-18",
+          "Nubi",
+          "Delibera da preparare"
+        ],
+        [
+          "Mercato dei Giardini",
+          "Mercato",
+          "Parco Lumo",
+          "2026-06-21",
+          "Vela",
+          "Ordinanza da preparare"
+        ],
+        [
+          "Suoni al Chiostro",
+          "Concerto",
+          "Chiostro delle Rive",
+          "2026-06-24",
+          "Lumo",
+          "Attrezzature da confermare"
+        ],
+        [
+          "Racconti in Piazza",
+          "Spettacolo",
+          "Piazza delle Vele",
+          "2026-06-27",
+          "Nubi",
+          "In attesa di valutazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "istanze",
+      "title": "Istanze",
+      "description": "Cerca e filtra le richieste ricevute. Aggiungi una pratica per avviare la preparazione degli atti.",
+      "metrics": [],
+      "columns": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Festa delle Lanterne",
+          "Manifestazione",
+          "Piazza delle Vele",
+          "2026-06-18",
+          "Nubi",
+          "Delibera da preparare"
+        ],
+        [
+          "Mercato dei Giardini",
+          "Mercato",
+          "Parco Lumo",
+          "2026-06-21",
+          "Vela",
+          "Ordinanza da preparare"
+        ],
+        [
+          "Suoni al Chiostro",
+          "Concerto",
+          "Chiostro delle Rive",
+          "2026-06-24",
+          "Lumo",
+          "Attrezzature da confermare"
+        ],
+        [
+          "Racconti in Piazza",
+          "Spettacolo",
+          "Piazza delle Vele",
+          "2026-06-27",
+          "Nubi",
+          "In attesa di valutazione"
+        ],
+        [
+          "Fiera delle Erbe",
+          "Fiera",
+          "Giardino dei Nembi",
+          "2026-06-30",
+          "Vela",
+          "Istanza ricevuta"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ]
+    },
+    {
+      "id": "atti-e-scadenze",
+      "title": "Atti e scadenze",
+      "description": "Segui la delibera, l'ordinanza e gli impegni degli uffici. Aggiorna lo stato per tenere tutti informati.",
+      "metrics": [],
+      "columns": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Festa delle Lanterne",
+          "Delibera",
+          "Piazza delle Vele",
+          "2026-06-10",
+          "Segreteria Nubi",
+          "Da preparare"
+        ],
+        [
+          "Mercato dei Giardini",
+          "Ordinanza strade",
+          "Parco Lumo",
+          "2026-06-14",
+          "Polizia Vela",
+          "Da preparare"
+        ],
+        [
+          "Suoni al Chiostro",
+          "Attrezzature comunali",
+          "Chiostro delle Rive",
+          "2026-06-16",
+          "Tecnico Lumo",
+          "Da confermare"
+        ],
+        [
+          "Racconti in Piazza",
+          "Delibera",
+          "Piazza delle Vele",
+          "2026-06-20",
+          "Segreteria Vela",
+          "In valutazione"
+        ],
+        [
+          "Fiera delle Erbe",
+          "Ordinanza strade",
+          "Giardino dei Nembi",
+          "2026-06-23",
+          "Polizia Nubi",
+          "Da avviare"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Tipo",
+        "Luogo",
+        "Data",
+        "Referente",
+        "Stato"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "prugna",
+    "fonts": "editoriale"
+  }
+}
